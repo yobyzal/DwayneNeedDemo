@@ -1,4 +1,6 @@
-﻿namespace DwayneNeedDemo
+﻿using System;
+
+namespace DwayneNeedDemo
 {
     /// <summary>
     /// MainWindow.xaml 的交互逻辑
@@ -8,6 +10,7 @@
         public MainWindow()
         {
             InitializeComponent();
+            WebBrowser.Navigate(new Uri(@"https://cn.bing.com/"));
         }
     }
 }
